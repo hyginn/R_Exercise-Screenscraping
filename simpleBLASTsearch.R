@@ -84,7 +84,15 @@ if (!require(XML)) {
     library(XML)
 }
 
-# send the query string off, and capture the response.
+# For a quick introduction to the package see
+#     http://www.omegahat.org/RSXML/shortIntro.pdf.
+# The vignettte is here:
+#     http://cran.r-project.org/web/packages/XML/XML.pdf.
+#
+# Type ??xml into the console to see the available functions.
+
+
+# Now send the query string off, and capture the response.
 
 response <- htmlParse(queryURL)
 
