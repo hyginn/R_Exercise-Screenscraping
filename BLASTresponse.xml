@@ -1,0 +1,73 @@
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<?xml version="1.0"?>
+<html>
+    <body>
+        <blastoutput>
+            <blastoutput_program>blastp</blastoutput_program>
+            <blastoutput_version>BLASTP 2.5.0+</blastoutput_version>
+            <blastoutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs", Nucleic Acids Res. 25:3389-3402.</blastoutput_reference>
+            <blastoutput_db>refseq_protein</blastoutput_db>
+            <blastoutput_query-id>NP_010227.1</blastoutput_query-id>
+            <blastoutput_query-def>transcription factor MBP1 [Saccharomyces cerevisiae S288c]</blastoutput_query-def>
+            <blastoutput_query-len>833</blastoutput_query-len>
+            <blastoutput_param>
+                <parameters>
+                    <parameters_matrix>BLOSUM62</parameters_matrix>
+                    <parameters_expect>3</parameters_expect>
+                    <parameters_gap-open>11</parameters_gap-open>
+                    <parameters_gap-extend>1</parameters_gap-extend>
+                    <parameters_filter>F</parameters_filter>
+                </parameters>
+            </blastoutput_param>
+            <blastoutput_iterations>
+                <iteration>
+                    <iteration_iter-num>1</iteration_iter-num>
+                    <iteration_query-id>NP_010227.1</iteration_query-id>
+                    <iteration_query-def>transcription factor MBP1 [Saccharomyces cerevisiae S288c]</iteration_query-def>
+                    <iteration_query-len>833</iteration_query-len>
+                    <iteration_hits>
+                        <hit>
+                            <hit_num>1</hit_num>
+                            <hit_id>gi|627818929|ref|XP_007682304.1|</hit_id>
+                            <hit_def>hypothetical protein COCMIDRAFT_338 [Bipolaris oryzae ATCC 44560]</hit_def>
+                            <hit_accession>XP_007682304</hit_accession>
+                            <hit_len>692</hit_len>
+                            <hit_hsps>
+                                <hsp>
+                                    <hsp_num>1</hsp_num>
+                                    <hsp_bit-score>125.176</hsp_bit-score>
+                                    <hsp_score>313</hsp_score>
+                                    <hsp_evalue>3.45169e-35</hsp_evalue>
+                                    <hsp_query-from>4</hsp_query-from>
+                                    <hsp_query-to>102</hsp_query-to>
+                                    <hsp_hit-from>8</hsp_hit-from>
+                                    <hsp_hit-to>106</hsp_hit-to>
+                                    <hsp_query-frame>0</hsp_query-frame>
+                                    <hsp_hit-frame>0</hsp_hit-frame>
+                                    <hsp_identity>56</hsp_identity>
+                                    <hsp_positive>74</hsp_positive>
+                                    <hsp_gaps>0</hsp_gaps>
+                                    <hsp_align-len>99</hsp_align-len>
+                                    <hsp_qseq>QIYSARYSGVDVYEFIHSTGSIMKRKKDDWVNATHILKAANFAKAKRTRILEKEVLKETHEKVQGGFGKYQGTWVPLNIAKQLAEKFSVYDQLKPLFDF</hsp_qseq>
+                                    <hsp_hseq>KIYSATYSNVPVYECNVNGHHVMRRRADDWINATHILKVADYDKPARTRILEREVQKGVHEKVQGGYGKYQGTWIPLEEGRGLAERNGVLDKMRAIFDY</hsp_hseq>
+                                    <hsp_midline>+IYSA YS V VYE   +   +M+R+ DDW+NATHILK A++ K  RTRILE+EV K  HEKVQGG+GKYQGTW+PL   + LAE+  V D+++ +FD+</hsp_midline>
+                                </hsp>
+                            </hit_hsps>
+                        </hit>
+                    </iteration_hits>
+                    <iteration_stat>
+                        <statistics>
+                            <statistics_db-num>12000</statistics_db-num>
+                            <statistics_db-len>5343984</statistics_db-len>
+                            <statistics_hsp-len>0</statistics_hsp-len>
+                            <statistics_eff-space>0</statistics_eff-space>
+                            <statistics_kappa>0.041</statistics_kappa>
+                            <statistics_lambda>0.267</statistics_lambda>
+                            <statistics_entropy>0.14</statistics_entropy>
+                        </statistics>
+                    </iteration_stat>
+                </iteration>
+            </blastoutput_iterations>
+        </blastoutput>
+    </body>
+</html>
